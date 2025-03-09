@@ -15,7 +15,7 @@ will then help guide marketing strategy for the company.
 
 ### ***This Business Task Have been go through six phase of data analysis process:***
 
-### \-[Ask](#Ask)
+### \-[Ask](#ASK-PHASE:-Identifying-the-Business-Task)
 ### \-[Prepare](#Prepare)
 ### \-[Process](#Process)
 ### \-[Analyze](#Analyze)
@@ -29,23 +29,6 @@ will then help guide marketing strategy for the company.
 \-Sando Mur-Mathematician and Bellabeat’s Co-founder
 
 \-Bellabeat’s marketing analytics team.
-
-
-
-
-
-## Ask
-
-
-
-### Prepare
-### Process
-### Analyze
-### Share
-### Act
-
-
-# Business Task: Bellabeat Smart Device Usage Analysis
 
 ## ASK PHASE: Identifying the Business Task
 Bellabeat aims to leverage smart device usage data to gain insights into customer behavior and improve its marketing strategy. The analysis will answer:
