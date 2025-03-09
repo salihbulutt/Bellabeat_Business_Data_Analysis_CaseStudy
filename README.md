@@ -15,12 +15,20 @@ will then help guide marketing strategy for the company.
 
 ### ***This Business Task Have been go through six phase of data analysis process:***
 
-### \-[Ask](#ask-phase-identifying-the-business-task)
-### \-[Prepare](#Prepare)
-### \-[Process](#Process)
-### \-[Analyze](#Analyze)
-### \-[Share](#Share)
-### \-[Act](#Act)
+### :question: [Ask](#ask-phase-identifying-the-business-task)
+### :world_map: [Prepare](#Prepare)
+### :computer: [Process](#Process)
+### :mag: [Analyze](#Analyze)
+### :chart: [Share](#Share)
+### :rocket: [Act](#Act)
+
+
+
+### ASK PHASE-Identifying the Business Task
+Bellabeat aims to leverage smart device usage data to gain insights into customer behavior and improve its marketing strategy. The analysis will answer:
+1. What are some trends in smart device usage?
+2. How could these trends apply to Bellabeat customers?
+3. How could these trends help influence Bellabeat’s marketing strategy?
 
 #### ***The Key Stakeholders :***
 
@@ -29,12 +37,6 @@ will then help guide marketing strategy for the company.
 \-Sando Mur-Mathematician and Bellabeat’s Co-founder
 
 \-Bellabeat’s marketing analytics team.
-
-### ASK PHASE-Identifying the Business Task
-Bellabeat aims to leverage smart device usage data to gain insights into customer behavior and improve its marketing strategy. The analysis will answer:
-1. What are some trends in smart device usage?
-2. How could these trends apply to Bellabeat customers?
-3. How could these trends help influence Bellabeat’s marketing strategy?
 
 ## PREPARE PHASE: Gathering and Understanding Data Sources
 - **Data Source**: Fitbit Fitness Tracker Data (Public Dataset from Kaggle)
