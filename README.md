@@ -15,7 +15,7 @@ will then help guide marketing strategy for the company.
 
 ### ***This Business Task Have been go through six phase of data analysis process:***
 
-### \-[Ask](#ask-phase-identifying-the-business-task)
+### \-[Ask](#ask--phase-identifying-the-business-task)
 ### \-[Prepare](#Prepare)
 ### \-[Process](#Process)
 ### \-[Analyze](#Analyze)
