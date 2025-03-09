@@ -30,7 +30,7 @@ will then help guide marketing strategy for the company.
 
 \-Bellabeat’s marketing analytics team.
 
-## ASK PHASE: Identifying the Business Task
+### ASK PHASE: Identifying the Business Task
 Bellabeat aims to leverage smart device usage data to gain insights into customer behavior and improve its marketing strategy. The analysis will answer:
 1. What are some trends in smart device usage?
 2. How could these trends apply to Bellabeat customers?
