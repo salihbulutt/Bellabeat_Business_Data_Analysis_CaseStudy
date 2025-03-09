@@ -22,10 +22,19 @@ will then help guide marketing strategy for the company.
 ### \-[Share](#Share)
 ### \-[Act](#Act)
 
+#### ***The Key Stakeholders :***
+
+\- Urška Sršen-Chief Creative Officer and Bellabeat’s Co-founder
+
+\-Sando Mur-Mathematician and Bellabeat’s Co-founder
+
+\-Bellabeat’s marketing analytics team.
 
 
 
-### Ask
+
+
+## Ask
 
 
 
