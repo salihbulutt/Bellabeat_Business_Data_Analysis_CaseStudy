@@ -5,7 +5,7 @@ develop beautifully designed technology that informs and inspires women around t
 stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits.
 Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women.
 
-### Scenario
+## Scenario
 
 &nbsp;&nbsp;&nbsp;&nbsp;Bellabeat is a successful small company, but it has the potential to become a larger player in the
 global smart device market.Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart
