@@ -65,9 +65,8 @@ to a distributed survey via Amazon Mechanical Turk between 03.12.2016-05.12.2016
  
  :exclamation: ***Limitations***: Small sample size, possible bias, and lack of diversity.
 
- :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
+ :arrow_up: [Back to the Top](#bellabeat-how-can-wellness-company-play-it-smart)
 
- :question: [Ask](#ask-phase-identifying-the-business-task)
 
 
 ## PROCESS PHASE: Cleaning and Transforming Data
