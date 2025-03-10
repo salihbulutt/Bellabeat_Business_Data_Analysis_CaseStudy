@@ -39,7 +39,7 @@ Bellabeat aims to leverage smart device usage data to gain insights into custome
 \-Bellabeat’s marketing analytics team.
 
 ## PREPARE PHASE: Gathering and Understanding Data Sources
-- **Data Source**: Fitbit Fitness Tracker Data (Public Dataset from Kaggle)
+- **Data Source**: [Fitbit Fitness Tracker Public Dataset from Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
 - **Data Overview**: Includes physical activity, heart rate, and sleep monitoring from 30 users.
 - **Limitations**: Small sample size, possible bias, and lack of diversity.
 - **Action Taken**: Additional data sources considered for validation.
