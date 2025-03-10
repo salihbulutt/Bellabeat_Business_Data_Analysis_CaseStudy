@@ -17,7 +17,7 @@ will then help guide marketing strategy for the company.
 
 ### :question: [Ask](#ask-phase-identifying-the-business-task)
 ### :world_map: [Prepare](#prepare-phase-gathering-and-understanding-data-sources)
-### :computer: [Process](#Process)
+### :computer: [Process](#process-phase-cleaning-and-transforming-data)
 ### :mag: [Analyze](#Analyze)
 ### :chart: [Share](#Share)
 ### :rocket: [Act](#Act)
