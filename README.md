@@ -63,7 +63,7 @@ to a distributed survey via Amazon Mechanical Turk between 03.12.2016-05.12.2016
   
 - **Cited**: Data has CC0: Public Domain, dataset made available through Möbius from a distributed survey via Amazon Mechanical Turk.
  
-  ***Limitations***: Small sample size, possible bias, and lack of diversity.
+ :exclamation: ***Limitations***: Small sample size, possible bias, and lack of diversity.
 
 
 ## PROCESS PHASE: Cleaning and Transforming Data
