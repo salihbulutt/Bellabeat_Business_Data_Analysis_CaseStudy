@@ -59,7 +59,7 @@ to a distributed survey via Amazon Mechanical Turk between 03.12.2016-05.12.2016
   region of residence shows that the data is not comprehensive. This will cause certain limits and prevent us from
   reaching a certain level of insight.
   
-- **Curent**: Data is from 03.12.2016 to 05.12.2016 so it is not current so some trends might be changed.
+- **Curent**: Data is from 03.12.2016 to 05.12.2016 so it is not current so some trends may have changed over time.
   
 - **Cited**: Data has CC0: Public Domain, dataset made available through Möbius from a distributed survey via Amazon Mechanical Turk.
  
