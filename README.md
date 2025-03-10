@@ -24,7 +24,7 @@ will then help guide marketing strategy for the company.
 
 
 
-### ASK PHASE: Identifying the Business Task
+## :question: ASK PHASE: Identifying the Business Task
 Bellabeat aims to leverage smart device usage data to gain insights into customer behavior and improve its marketing strategy. The analysis will answer:
 1. What are some trends in smart device usage?
 2. How could these trends apply to Bellabeat customers?
@@ -38,7 +38,7 @@ Bellabeat aims to leverage smart device usage data to gain insights into custome
 
 \-Bellabeat’s marketing analytics team.
 
-## PREPARE PHASE: Gathering and Understanding Data Sources
+## :world_map: PREPARE PHASE: Gathering and Understanding Data Sources
 - **Data Source**: [Fitbit Fitness Tracker Public Dataset from Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
 - **Data Overview**: This Kaggle data set contains personal fitness tracker from thirty fitbit users.
 Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level
@@ -69,7 +69,7 @@ to a distributed survey via Amazon Mechanical Turk between 03.12.2016-05.12.2016
 
 
 
-## PROCESS PHASE: Cleaning and Transforming Data
+## :computer: PROCESS PHASE: Cleaning and Transforming Data
 ### SQL Data Cleaning
 ```sql
 -- Checking for missing values
@@ -104,7 +104,7 @@ data_clean <- data %>% distinct()
 ```
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
-## ANALYZE PHASE: Performing Calculations and Identifying Trends
+## :mag: ANALYZE PHASE: Performing Calculations and Identifying Trends
 ### SQL Analysis
 ```sql
 -- Aggregating daily activity data
@@ -141,7 +141,7 @@ data_clean <- data_clean %>%
 ```
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
-## SHARE PHASE: Creating Visuals and Insights
+## :chart: SHARE PHASE: Creating Visuals and Insights
 ### Tableau Dashboard
 - **Step Trends vs. Calories Burned**
 - **Activity Levels Across Users**
@@ -156,7 +156,7 @@ ggplot(data_clean, aes(x = total_steps, y = total_calories)) +
 ```
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
-## ACT PHASE: Final Recommendations
+## :rocket: ACT PHASE: Final Recommendations
 1. **Target Audience Identification**: Focus marketing efforts on active users who track steps and calories frequently.
 2. **Product Enhancement**: Improve sleep-tracking features based on observed sleep patterns.
 3. **Strategic Marketing**: Personalize app recommendations based on user activity levels.
