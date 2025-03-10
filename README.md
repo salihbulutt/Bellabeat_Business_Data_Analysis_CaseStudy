@@ -102,6 +102,7 @@ colSums(is.na(data))
 # Removing duplicates
 data_clean <- data %>% distinct()
 ```
+:arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 ## ANALYZE PHASE: Performing Calculations and Identifying Trends
 ### SQL Analysis
@@ -138,6 +139,7 @@ data_clean <- data_clean %>%
     TRUE ~ "Sedentary"
   ))
 ```
+:arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 ## SHARE PHASE: Creating Visuals and Insights
 ### Tableau Dashboard
@@ -152,6 +154,7 @@ ggplot(data_clean, aes(x = total_steps, y = total_calories)) +
   geom_point(color = "blue") +
   labs(title = "Steps vs Calories Burned")
 ```
+:arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 ## ACT PHASE: Final Recommendations
 1. **Target Audience Identification**: Focus marketing efforts on active users who track steps and calories frequently.
