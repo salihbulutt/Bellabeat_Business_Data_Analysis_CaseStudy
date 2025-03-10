@@ -15,16 +15,16 @@ will then help guide marketing strategy for the company.
 
 ### ***This Business Task Have been go through six phase of data analysis process:***
 
-### :question: [Ask](#ask-phase-identifying-the-business-task)
-### :world_map: [Prepare](#prepare-phase-gathering-and-understanding-data-sources)
+### :question: [Ask](#question-ask-phase-identifying-the-business-task)
+### :world_map: [Prepare](#world_map-prepare-phase-gathering-and-understanding-data-sources)
 ### :computer: [Process](#computer-process-phase-cleaning-and-transforming-data)
-### :mag: [Analyze](#Analyze)
-### :chart: [Share](#Share)
-### :rocket: [Act](#Act)
+### :mag: [Analyze](#mag-analyze-phase-performing-calculations-and-identifying-trends)
+### :chart: [Share](#chart-share-phase-creating-visuals-and-insights)
+### :rocket: [Act](#rocket-act-phase-final-recommendations)
 
 
 
-## ASK PHASE: Identifying the Business Task
+## :question: ASK PHASE: Identifying the Business Task
 Bellabeat aims to leverage smart device usage data to gain insights into customer behavior and improve its marketing strategy. The analysis will answer:
 1. What are some trends in smart device usage?
 2. How could these trends apply to Bellabeat customers?
@@ -38,7 +38,7 @@ Bellabeat aims to leverage smart device usage data to gain insights into custome
 
 \-Bellabeat’s marketing analytics team.
 
-## PREPARE PHASE: Gathering and Understanding Data Sources
+## :world_map: PREPARE PHASE: Gathering and Understanding Data Sources
 - **Data Source**: [Fitbit Fitness Tracker Public Dataset from Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
 - **Data Overview**: This Kaggle data set contains personal fitness tracker from thirty fitbit users.
 Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level
