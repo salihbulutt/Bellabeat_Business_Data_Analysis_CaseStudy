@@ -1,4 +1,4 @@
-# Bellabeat - How can a wellness company play it smart?
+# Bellabeat: How can a wellness company play it smart?
 
 &nbsp;&nbsp;&nbsp;&nbsp;Bellabeat, a high-tech company that manufactures health-focused smart products.Sršen used her background as an artist to
 develop beautifully designed technology that informs and inspires women around the world. Collecting data on activity, sleep,
@@ -65,7 +65,7 @@ to a distributed survey via Amazon Mechanical Turk between 03.12.2016-05.12.2016
  
  :exclamation: ***Limitations***: Small sample size, possible bias, and lack of diversity.
 
- :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart?)
+ :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 
 
