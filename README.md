@@ -44,7 +44,7 @@ Bellabeat aims to leverage smart device usage data to gain insights into custome
 Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level
 output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity,
 steps, and heart rate that can be used to explore users’ habits. The data set consists of 11 csv files in total.
-When we bring them together, we can access the date range 03.12-04.12 and 35 users.
+When we bring them together, we can access the date range 03.12-04.12 and 35 users.I will use only the 5 of the csv files.
 
 ### ROCCC Aproach:
 
@@ -70,38 +70,11 @@ to a distributed survey via Amazon Mechanical Turk between 03.12.2016-04.12.2016
 
 
 ## :computer: PROCESS PHASE: Cleaning and Transforming Data
-### SQL Data Cleaning
-```sql
--- Checking for missing values
-SELECT column_name, COUNT(*) AS missing_values
-FROM FitBit_Data
-WHERE column_name IS NULL
-GROUP BY column_name;
 
--- Removing duplicate records
-DELETE FROM FitBit_Data
-WHERE rowid NOT IN (
-    SELECT MIN(rowid)
-    FROM FitBit_Data
-    GROUP BY user_id, activity_date
-);
-```
+&nbsp;&nbsp;&nbsp;&nbsp;When I started cleaning the data, I decided to use Spreadsheet based on the size of the data.After importing the
+datasets into the Spreadsheet I checked the duplicates,nulls and incorrect values.There was no duplicate value or any nulls.I remove some of the 
+columns that with irrelevant information.
 
-### R Data Cleaning
-```r
-# Load necessary libraries
-library(dplyr)
-library(ggplot2)
-
-# Load dataset
-data <- read.csv("fitbit_data.csv")
-
-# Checking for missing values
-colSums(is.na(data))
-
-# Removing duplicates
-data_clean <- data %>% distinct()
-```
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 ## :mag: ANALYZE PHASE: Performing Calculations and Identifying Trends
