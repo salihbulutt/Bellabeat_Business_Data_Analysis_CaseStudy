@@ -81,20 +81,25 @@ columns that with irrelevant information.
 ### SQL Analysis
 ```sql
 -- Aggregating daily activity data
-SELECT user_id, activity_date, SUM(total_steps) AS daily_steps, SUM(total_calories) AS daily_calories
-FROM FitBit_Data
-GROUP BY user_id, activity_date;
+SELECT
+  Id,
+  ActivityDate,
+  SUM(TotalSteps) AS daily_steps,
+  SUM(Calories) AS daily_calories
+FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
+GROUP BY Id, ActivityDate
+ORDER BY ActivityDate;
 
 -- Identifying user activity levels
-SELECT user_id,
-       AVG(total_steps) AS avg_daily_steps,
+SELECT Id,
+       AVG(TotalSteps) AS avg_daily_steps,
        CASE 
-           WHEN AVG(total_steps) >= 10000 THEN 'Highly Active'
-           WHEN AVG(total_steps) BETWEEN 5000 AND 9999 THEN 'Moderately Active'
+           WHEN AVG(TotalSteps) >= 10000 THEN 'Highly Active'
+           WHEN AVG(TotalSteps) BETWEEN 5000 AND 9999 THEN 'Moderately Active'
            ELSE 'Sedentary'
        END AS activity_level
-FROM FitBit_Data
-GROUP BY user_id;
+FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
+GROUP BY Id;
 ```
 
 ### R Analysis
@@ -115,10 +120,6 @@ data_clean <- data_clean %>%
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 ## :chart: SHARE PHASE: Creating Visuals and Insights
-### Tableau Dashboard
-- **Step Trends vs. Calories Burned**
-- **Activity Levels Across Users**
-- **Sleep Patterns and Device Usage**
 
 ### R Data Visualization
 ```r
