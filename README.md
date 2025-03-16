@@ -84,11 +84,13 @@ columns that with irrelevant information.
 SELECT
   Id,
   ActivityDate,
+  SUM(SedentaryMinutes/60) AS daily_sedentary_hours,
   SUM(TotalSteps) AS daily_steps,
   SUM(Calories) AS daily_calories
 FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
 GROUP BY Id, ActivityDate
 ORDER BY ActivityDate;
+
 
 -- Identifying user activity levels
 SELECT Id,
@@ -100,6 +102,23 @@ SELECT Id,
        END AS activity_level
 FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
 GROUP BY Id;
+
+
+-- Identifying user sleep levels
+SELECT
+  Id,
+  date,
+  SUM(value)/60 AS total_sleep_hour,
+  CASE 
+           WHEN SUM(value)/60 >= 8 THEN 'Well Rested'
+           WHEN SUM(value)/60 BETWEEN 5 AND 8 THEN 'Moderately Rested'
+           ELSE 'Need Sleep'
+       END AS sleep_time
+
+FROM `global-sign-450613-m9.Bellabeat_CaseStudy.minuteSleep_merged_031216-041116`
+
+GROUP BY Id,date;
+
 ```
 
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
