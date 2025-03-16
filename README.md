@@ -75,6 +75,17 @@ to a distributed survey via Amazon Mechanical Turk between 03.12.2016-04.12.2016
 datasets into the Spreadsheet I checked the duplicates,nulls and incorrect values.There was no duplicate value or any nulls.I remove some of the 
 columns that with irrelevant information.
 
+### SQL Cleaning
+```removing duplicates from weight dataset
+SELECT DISTINCT
+  Id,
+  MAX(WeightKg) AS max_weight
+
+FROM `global-sign-450613-m9.Bellabeat_CaseStudy.weightLogInfo_merged_031216-041116`
+
+GROUP BY Id;
+```
+
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 ## :mag: ANALYZE PHASE: Performing Calculations and Identifying Trends
