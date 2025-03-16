@@ -76,7 +76,8 @@ datasets into the Spreadsheet I checked the duplicates,nulls and incorrect value
 columns that with irrelevant information.
 
 ### SQL Cleaning
-```removing duplicates from weight dataset
+```sql
+-- removing duplicates from weight dataset
 SELECT DISTINCT
   Id,
   MAX(WeightKg) AS max_weight
