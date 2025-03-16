@@ -102,21 +102,6 @@ FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-0411
 GROUP BY Id;
 ```
 
-### R Analysis
-```r
-# Average steps per user
-avg_steps <- data_clean %>%
-  group_by(user_id) %>%
-  summarise(avg_steps = mean(total_steps))
-
-# Activity level classification
-data_clean <- data_clean %>%
-  mutate(activity_level = case_when(
-    total_steps >= 10000 ~ "Highly Active",
-    total_steps >= 5000 ~ "Moderately Active",
-    TRUE ~ "Sedentary"
-  ))
-```
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
 
 ## :chart: SHARE PHASE: Creating Visuals and Insights
