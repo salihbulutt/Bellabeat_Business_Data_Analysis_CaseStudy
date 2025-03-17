@@ -104,7 +104,7 @@ GROUP BY Id, ActivityDate
 ORDER BY ActivityDate;
 ```
 
-```
+```sql
 -- Identifying user activity levels
 SELECT Id,
        AVG(TotalSteps) AS avg_daily_steps,
@@ -116,7 +116,7 @@ SELECT Id,
 FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
 GROUP BY Id;
 ```
-```
+```sql
 -- Identifying user sleep levels
 SELECT
   Id,
@@ -133,7 +133,7 @@ FROM `global-sign-450613-m9.Bellabeat_CaseStudy.minuteSleep_merged_031216-041116
 GROUP BY Id,date;
 
 ```
-```
+```sql
 -- Identifying users weights
 SELECT DISTINCT
   Id,
@@ -143,7 +143,7 @@ FROM `global-sign-450613-m9.Bellabeat_CaseStudy.weightLogInfo_merged_031216-0411
 
 GROUP BY Id;
 ```
-```
+```sql
 -- Looking for specific user METs data
 SELECT
   Id,
@@ -153,7 +153,7 @@ FROM `global-sign-450613-m9.Bellabeat_CaseStudy.minuteMETsNarrow_merged_031216-0
 WHERE Id = 1927972279
 GROUP BY Id,activity_date;
 ```
-```
+```sql
 --Comparing the users specific day activity
 SELECT 
   Id,
