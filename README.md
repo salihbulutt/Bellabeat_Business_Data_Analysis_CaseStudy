@@ -102,8 +102,9 @@ SELECT
 FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
 GROUP BY Id, ActivityDate
 ORDER BY ActivityDate;
+```
 
-
+```
 -- Identifying user activity levels
 SELECT Id,
        AVG(TotalSteps) AS avg_daily_steps,
@@ -114,8 +115,8 @@ SELECT Id,
        END AS activity_level
 FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
 GROUP BY Id;
-
-
+```
+```
 -- Identifying user sleep levels
 SELECT
   Id,
@@ -131,6 +132,37 @@ FROM `global-sign-450613-m9.Bellabeat_CaseStudy.minuteSleep_merged_031216-041116
 
 GROUP BY Id,date;
 
+```
+```
+-- Identifying users weights
+SELECT DISTINCT
+  Id,
+  MAX(WeightKg) AS max_weight
+
+FROM `global-sign-450613-m9.Bellabeat_CaseStudy.weightLogInfo_merged_031216-041116`
+
+GROUP BY Id;
+```
+```
+-- Looking for specific user METs data
+SELECT
+  Id,
+  activity_date,
+  SUM(METs/1440) AS average_daily_mets
+FROM `global-sign-450613-m9.Bellabeat_CaseStudy.minuteMETsNarrow_merged_031216-041116`
+WHERE Id = 1927972279
+GROUP BY Id,activity_date;
+```
+```
+--Comparing the users specific day activity
+SELECT 
+  Id,
+  ActivityDate,
+  TotalSteps,
+  SedentaryMinutes,
+  Calories
+FROM `global-sign-450613-m9.Bellabeat_CaseStudy.dailyActivity_merged_031216-041116`
+WHERE Id = 1927972279 AND ActivityDate = DATE('2016-04-12')
 ```
 
 :arrow_up: [Back to the Top](#bellabeat-how-can-a-wellness-company-play-it-smart)
